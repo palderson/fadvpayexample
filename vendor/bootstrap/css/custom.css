@@ -1,0 +1,59 @@
+body {
+	background-color: #f6f9fc;
+}
+
+body > .container {
+	padding-top: 0px;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #525f7f;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	color: #525f7f;
+}
+
+.navbar {
+	height: 120px;
+	background-color: ##f6f9fc;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.lead {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.panel {
+    background-color: #FFFFFF;
+    height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+#ccholder {
+	height: 400px;
+}
+
+.powered {
+	font-family: 'Roboto', sans-serif;
+	color: grey;
+}
+
+.fadv-logo {
+	height: 80px;
+}

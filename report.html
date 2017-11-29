@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>First Advantage - Credit Passport</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="vendor/bootstrap/css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <script src="https://static.neednova.com/connect/v2/init.js"></script>
+
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">Welcome to the Adara Communities foreign credit portal</h1><br>
+          <p class="lead">An authorization of $64.95 has been placed on your credit card. You will only be charged if your credit report is successfully retrieved. Click the button below &amp; follow the prompts to have your foreign credit report considered as part of your lease application.
+          </p>
+          <br>
+          <div class="panel">
+            <div class="panel-body">
+              <div id="nova-button"></div>
+              <script>
+                  window.Nova.register({
+                    publicId: 'd3707b9c09c6d77383a62ea3cd820fff6bbb3286c629ade45a8029dd220b802e',
+                    env: 'production',
+                    productId: '625a0910-c576-11e7-b5c7-8315922ad308',
+                    callback: 'https://resident.fadv.com/internationalcredit/api/novaapi/27148035'
+                  });
+              </script>
+            </div>
+          </div>
+          <br>
+          <br>
+          <p class="lead">Providing a foreign credit report may reduce the security deposit you are required to pay. Adara Communities is under no obligation to reduce the up front deposit on the basis of the information contained in your foreign credit file. 
+          </p>
+          <br>  
+            <img class="fadv-logo" src="https://www.fadv.com/Fadv-prod/media/Assets/Logos/Corporate/FADV-Logo-Background-Check-Services.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
